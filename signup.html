@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUpPage</title>
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <section id="signup" class=" p-5">
+        <div class="container">
+            <div class="login-page w-75 m-auto">
+                <h1 class=" text-center p-5">Smart Login System</h1>
+                <form id="signupForm">
+                    <div class="mb-3">
+                        <input type="name" class="form-style selectedInput " id="signupName"
+                            placeholder="Enter your name">
+                    </div>
+                    <div class="text-center text-danger d-none" id="signupNameError">
+                        <p>At least three chars</p>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-style selectedInput" id="signupEmail"
+                            placeholder="Enter your email">
+                    </div>
+                    <div class=" text-center text-danger d-none" id="signupEmailError">
+                        <p>Please enter a valid email</p>
+                    </div>
+                    <div class=" text-center text-danger d-none" id="exist">
+                        <p>Email is already exist</p>
+                    </div>
+                    <div class="mb-3 ">
+                        <input type="password" class="form-style selectedInput" id="signupPassword"
+                            placeholder="Enter your password">
+                    </div>
+                    <div class=" text-center text-danger d-none" id="signupPasswordError">
+                        <p>At least 8 chars,one special char at least,one small&one capital char at least,one number at least</p>
+                    </div>
+                    <div class="text-center text-success d-none" id="success">
+                        <p>success</p>
+                    </div>
+                    <div class="mb-3 ">
+                        <button type="submit" class="btn btn-color w-100">Logup</button>
+                    </div>
+                    <p class=" text-center text-white pb-5">You have an account ? <a
+                            class=" text-decoration-none text-white" href="index.html">Sign In</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

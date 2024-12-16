@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignInPage</title>
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <section id="signin" class=" p-5">
+        <div class="container">
+            <div class="login-page w-75 m-auto">
+                <h1 class=" text-center p-5">Smart Login System</h1>
+                <form id="signinForm">
+                    <div class="mb-3">
+                        <input type="email" class="form-style" id="signinEmail" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3 ">
+                        <input type="password" class="form-style" id="signinPassword" placeholder="Enter your password">
+                    </div>
+                    <p class="text-center text-danger d-none" id="invalid">invalid email or password</p>
+                    <div class="mb-3 ">
+                        <button type="submit" class="btn btn-color w-100">Login</button>
+                    </div>
+                    <p class=" text-center text-white pb-5">Don't have an account ? <a
+                            class=" text-decoration-none text-white" href="signup.html" target="_self">Sign Up</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

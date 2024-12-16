@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "TitilliumWeb-Bold";
+    src: url("../fonts/TitilliumWeb-Bold.ttf") format("ttf"),
+    url("../fonts/TitilliumWeb-Bold.woff") format("woff"),
+    url("../fonts/TitilliumWeb-Bold.woff2") format("woff2");
+}
+@font-face {
+    font-family: "TitilliumWeb-Regular";
+    src: url("../fonts/TitilliumWeb-Regular.ttf") format("ttf"),
+    url("../fonts/TitilliumWeb-Regular.woff") format("woff"),
+    url("../fonts/TitilliumWeb-Regular.woff2") format("woff2");
+}
+section{
+    height:100vh;
+    background-color: #24353F;
+}
+h1{
+    color: #17A2B8;
+    font-family:"TitilliumWeb-Regular" ;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.login-page,.homepage,nav{
+    background-color:#24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+form div{
+    padding-inline: 3rem;
+}
+.form-style {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    color:#fff;
+    appearance: none;
+    background-color: #24353F;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+}
+.form-style:focus {
+    color:#fff;
+    background-color:#24353F;
+    border-color: #86b7fe;
+    box-shadow: none;
+}
+input,button,p{
+    font-family:"TitilliumWeb-Regular" ;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+.btn-color {
+    --bs-btn-color: #17A2B8;
+    --bs-btn-bg: #24353F;
+    --bs-btn-border-color: #17A2B8;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #17A2B8;
+    --bs-btn-hover-border-color: #17A2B8;
+    --bs-btn-focus-shadow-rgb: 11, 172, 204;
+}
